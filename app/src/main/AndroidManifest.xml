@@ -14,6 +14,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <service android:name=".Delay"
+                android:enabled="true"
+                android:exported="true">
+            </service>
         </activity>
     </application>
 

@@ -94,6 +94,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClick2(View v){
         cursor3();
+
+    }
+    public void onClick3(View v){
+
     }
     private void cursor3(){
         myDB = new tblTable(this, DB_NAME, null, DB_VERSION);
@@ -112,5 +116,6 @@ public class MainActivity extends AppCompatActivity {
                 0);
         lv.setAdapter(adapter);
     }
+
 
 }
