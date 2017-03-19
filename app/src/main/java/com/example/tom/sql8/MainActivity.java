@@ -111,6 +111,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClick2(View v){
         cursor3();
+
+    }
+    public void onClick3(View v){
+
     }
     //查詢資料庫的全部資料表格 並顯示在字定的ListView上
     private void cursor3(){
@@ -129,5 +133,6 @@ public class MainActivity extends AppCompatActivity {
                 0);
         lv.setAdapter(adapter);
     }
+
 
 }

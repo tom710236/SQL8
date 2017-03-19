@@ -115,12 +115,20 @@
             android:onClick="onClick" />
 
         <Button
-            android:text="下一頁"
+            android:text="顯示"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button"
             android:layout_weight="1"
             android:onClick="onClick2" />
+
+        <Button
+            android:text="三秒後上傳"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:onClick="onClick3" />
     </LinearLayout>
 
     <ListView
